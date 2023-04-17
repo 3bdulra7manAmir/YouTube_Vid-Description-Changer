@@ -6,8 +6,6 @@
 
 -   Replace the Text of a Specific line or more than one line by The words you want!
 
-<p style="font-size: 12px; color: gray;">If you have any problems installing, please contact <a href="https://discordapp.com/users/528791966503403541">ToothyJarl#2746</a>.</p>
-
 # Usage
 
 1. install all required Libraries.
