@@ -25,7 +25,7 @@
   client_secrets_file = "Path in Here"
 
 4. Replce the lines.
-  old_lines = ["^^^^^^^", "^^^^^^^"]
+  old_lines = ["^^^^^^^", "^^^^^^^"]<br>
   new_lines = ["^^^^^^^", "^^^^^^^"]
 
 5. in "flow = InstalledAppFlow.from_client_secrets_file" put your Auth Json file path again.
