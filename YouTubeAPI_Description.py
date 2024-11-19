@@ -17,9 +17,6 @@ NEW_LINES = ["https://discord.gg/CHZea8zvBG", ""]
 
 
 def authenticate_youtube_api():
-    """
-    Authenticate and build the YouTube API client.
-    """
     creds = None
     if os.path.exists(TOKEN_FILE):
         creds = Credentials.from_authorized_user_file(TOKEN_FILE, SCOPES)
@@ -39,9 +36,6 @@ def authenticate_youtube_api():
 
 
 def get_channel_videos(youtube):
-    """
-    Retrieve all videos from the authenticated user's channel.
-    """
     try:
         # Get channel details
         channels_response = youtube.channels().list(part="contentDetails", mine=True).execute()
@@ -68,9 +62,6 @@ def get_channel_videos(youtube):
 
 
 def update_video_description(youtube, video_id, title, description):
-    """
-    Update the description of a video.
-    """
     try:
         youtube.videos().update(
             part="snippet",
