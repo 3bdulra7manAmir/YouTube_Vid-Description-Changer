@@ -27,7 +27,6 @@
   
 3. Replace the Auth Json file path with your File path.
   client_secrets_file = "Path in Here"
-
 4. Replce the lines.<br>
   old_lines = ["^^^^^^^", "^^^^^^^"]<br>
   new_lines = ["^^^^^^^", "^^^^^^^"]
